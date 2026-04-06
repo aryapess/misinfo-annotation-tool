@@ -160,6 +160,14 @@ risk_level = st.radio(
     index=2
 )
 
+misinfo_kind = st.radio(
+    "5) Kind of misinformation",
+    ["Satire of Pardoy", "False Connection", "Misleading Content", "False Context", "Imposter Content", "Fabricated Content", "Manipulated Content"],
+    horizontal=True,
+    index=6
+)
+
+
 notes = st.text_input("Optional notes (for yourself)", value="")
 
 # Navigation / save buttons
