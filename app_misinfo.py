@@ -111,7 +111,7 @@ row = work_df.iloc[st.session_state.idx]
 # -----------------------------
 # UI
 # -----------------------------
-colA, colB, colC = st.columns([3, 1, 1])
+colA, colB, colC = st.columns([4, 1, 1])
 with colA:
     st.title("Cancer Misinformation Annotation")
     st.caption(f"File: {row['file_name']}  |  {st.session_state.idx+1} / {len(work_df)}")
